@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationExerciseSuite" parallel="tests" thread-count="4">
+    <!-- Suite name can be customized -->
+
+    <test name="AutomationExerciseTest">
+        <classes>
+            <!-- Specify the fully qualified name of your TestRunner class -->
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
